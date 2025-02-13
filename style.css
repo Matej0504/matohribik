@@ -91,6 +91,18 @@ a {
     margin-top: 20px; /* Horný okraj pre lepší vizuál */
 }
 
+.video-container {
+    position: relative;
+    width: 100%;  /* Šírka videa sa prispôsobí rodičovi */
+    max-width: 800px; /* Maximálna šírka na veľkých obrazovkách */
+    margin: 0 auto; /* Zarovnanie na stred */
+}
+
+.video-container iframe {
+    width: 100%; 
+    height: auto;
+    aspect-ratio: 16 / 9; /* Zachová správny pomer strán */
+}
 
 
 
